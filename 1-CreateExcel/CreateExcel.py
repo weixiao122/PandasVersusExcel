@@ -14,7 +14,7 @@ df = pd.DataFrame({'ID':[0,1,2],'Name':['Mark','Tomi','Jack']})
 df = df.set_index('ID') # 会生成新的 DataFrame
 # df.set_index('ID',inplace=True) # 在原来的 DataFrame 上进行修改
 
-# 将数据输出到 output.xlsx
+# 将数据输出到 output.xlsx，Sheet1可以改，这是工作表的名字
 df.to_excel(writer,'Sheet1')
 writer.save()
 
