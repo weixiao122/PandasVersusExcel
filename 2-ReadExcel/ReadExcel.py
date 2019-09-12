@@ -10,7 +10,7 @@ import pandas as pd
 # 读取文件
 # head：默认0，表示开始读取的行（默认会跳过顶部的空行）
 # index_col: 指定数据的索引列
-people = pd.read_excel('./People.xlsx',head=1,index_col='ID')
+people = pd.read_excel('output.xlsx',head=1,index_col='ID')
 # 读取文件的行数和列数
 shape = people.shape
 # 读取文件的行,不会显示索引列
@@ -24,10 +24,11 @@ tail = people.tail()
 # （以下内容根据实际情况使用，同时使用会造成数据混乱）
 
 # 当标题行上有坏数据时可使用 head 参数
-people1 = pd.read_excel('./People.xlsx',head=1)
+people1 = pd.read_excel('output.xlsx',head=1)
 
 # 当数据表中没有标题行时可将 head 的值设为 None 表示无标题
-people2 = pd.read_excel('./People.xlsx',head=None)
-people2.columns = ['ID', 'Type', 'Title', 'FirstName', 'MiddleName', 'LastName']
+people2 = pd.read_excel('output.xlsx',head=None)
+#people2.columns = ['ID', 'Type', 'Title', 'FirstName', 'MiddleName', 'LastName']
+people2.columns = ['ID', 'name']
 
 print(columns)
