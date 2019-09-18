@@ -13,7 +13,7 @@ print(employees.columns)
 print(df)
 
 employees['First Name'] = df[0]
-employees['Last Name'] = df[0]
+employees['Last Name'] = df[1]
 print('\n----分割后的结果----')
 print(employees)
 
