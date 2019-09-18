@@ -17,6 +17,8 @@ weeks.plot.area(y=['Accessories','Bikes','Clothing','Components'])
 plt.title('Sales Weekly Trend',fontsize=16,fontweight='bold')
 plt.ylabel('Total',fontsize=12,fontweight='bold')
 plt.xticks(weeks.index,fontsize=8)
+#保存图片，设置图片分辨率
+plt.savefig('D:\\aaa.png',dpi = 1300)
 plt.show()
 
 # 补充说明
