@@ -15,7 +15,7 @@ import pandas as pd
 connection = pyodbc.connect('DRIVER={SQL Server}; SERVER=(local); DATABASE=AdventureWorks;USER=sa;PASSWORD=123456')
 # sqlalchemy 链接字符串
 engine = sqlalchemy.create_engine('mssql+pyodbc://sa:123456@(local)/AdventureWorks?driver=SQL+Server')
-#engine=create_engine("mysql+pymysql://root:a5230411@localhost:3306/test",echo=True)    #连接mysql
+#engine=sqlalchemy.create_engine("mysql+pymysql://root:a5230411@localhost:3306/test",echo=True)    #连接mysql
 
 
 # 由于数据库中使用单引号，此处使用双引号引用 SQL 语句
