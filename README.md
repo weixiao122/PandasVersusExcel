@@ -1,7 +1,6 @@
 # Learn pandas vs Excel(Python)
 
 
-本笔记为 [Pandas玩转Excel - Python数据分析轻松学](http://sa.mentorx.net/course/89/tasks) 这门课程的学习笔记
 
 ## Contents
 * [1 - 创建文件](1-CreateExcel/CreateExcel.py)
@@ -32,9 +31,3 @@
 * [28 - 列操作集锦](28-ColOperation/ColOperation.py)
 * [29 - 读取数据库](29-ReadDataBase/ReadDataBase.py)
 * [30 - 编写复杂方程](30-WritingComplexEquations/WritingComplexEquations.py)
-
-
----
-鸣谢：  
-[Pandas玩转Excel - Python数据分析轻松学](http://sa.mentorx.net/course/89/notes) 讲师：
-[Timothy](http://sa.mentorx.net/user/25)
